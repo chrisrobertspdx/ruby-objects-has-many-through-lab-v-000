@@ -18,3 +18,5 @@ class Artist
     self.songs.collect{|s|
       s.genre
     }
+  end
+end

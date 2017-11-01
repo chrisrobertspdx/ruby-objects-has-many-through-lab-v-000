@@ -8,7 +8,7 @@ class Genre
     @songs << song
   end
   def songs
-    @songs
+    self.songs
   end
   def artists
     self.songs.collect{|s|

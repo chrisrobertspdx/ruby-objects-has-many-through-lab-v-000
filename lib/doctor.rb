@@ -12,7 +12,7 @@ class Doctor
   end
   def patients
     self.appointments.collect{|a|
-      a.patient.name
+      a.patient
     }
   end
 end

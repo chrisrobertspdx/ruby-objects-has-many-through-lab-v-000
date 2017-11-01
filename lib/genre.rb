@@ -12,7 +12,7 @@ class Genre
   end
   def artists
     self.songs.collect{|s|
-      s.get_artist()
+      s.get_artist
     }
   end
 end
